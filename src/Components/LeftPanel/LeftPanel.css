@@ -1,0 +1,81 @@
+.LeftPanel {
+  width: 30%;
+  height: 100%;
+}
+.LeftPanelTop {
+  width: 100%;
+  height: 12%;
+  border-bottom: 0.3px solid rgb(221, 220, 220);
+}
+.ProfileContent {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.ProfileBox {
+  width: 20%;
+  height: 100%;
+}
+.Profile {
+  width: 50%;
+  height: 80%;
+  margin-top: 0.4em;
+  margin-left: 0.9em;
+  border-radius: 50%;
+  background-image: url("Profile.png");
+  background-size: cover;
+}
+.NavBox {
+  display: flex;
+  justify-content: space-around;
+}
+.Navs i:hover {
+  color: #54a984;
+}
+.Navs i {
+  padding-top: 0.9em;
+}
+.Navs {
+  margin-right: 2rem;
+  font-size: 1.3em;
+  color: rgb(97, 97, 97);
+}
+.SearchContainer {
+  background-color: #fdfefe;
+  width: 100%;
+  height: 45%;
+  display: flex;
+}
+.SearchBox {
+  display: flex;
+  background-color: rgb(228, 228, 228);
+  width: 87%;
+  height: 75%;
+  margin-left: 0.9em;
+  margin-top: 0.3em;
+  border-radius: 0.4em;
+}
+.SearchIcon {
+  margin-left: 0.4em;
+  margin-top: 0.6em;
+  color: rgb(107, 107, 107);
+}
+.SearchInput {
+  margin-left: 0.5em;
+  width: 90%;
+  background-color: rgb(228, 228, 228);
+  border: none;
+  outline: none;
+}
+.FilterIcon {
+  padding: 0.3em 0.57em;
+  border-radius: 50%;
+  margin-left: 0.7em;
+  margin-top: 0.5em;
+  color: gray;
+}
+.FilterIcon:hover {
+  background-color: #54a984;
+  color: whitesmoke;
+}

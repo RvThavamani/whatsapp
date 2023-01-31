@@ -1,0 +1,100 @@
+.RightPanelFirst {
+  width: 57%;
+  height: 100%;
+  border-right: 1px solid;
+}
+.RPFtop {
+  width: 100%;
+  height: 3.75em;
+  background-color: #f0f2f5;
+  border-left: 1px solid rgb(192, 192, 192);
+  border-right: 1px solid rgb(189, 187, 187);
+  display: flex;
+  justify-content: space-between;
+}
+.ProfileName {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+.ChatUserDp {
+  font-size: 3em;
+  margin-top: 0.15em;
+  margin-left: 0.3em;
+}
+.ChatUserName {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  margin-top: 1em;
+  color: rgb(104, 104, 104);
+}
+.SearchMenu {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+.Searchicon {
+  margin-left: 1em;
+  margin-top: 0.75em;
+}
+.SiMb i:hover {
+  background-color: rgb(203, 202, 202);
+}
+.Searchicon i {
+  padding: 0.7em;
+  border-radius: 50%;
+}
+.MenuBar {
+  margin-right: 1em;
+  margin-top: 0.75em;
+}
+.MenuBar i {
+  padding: 0.65em 1em;
+  border-radius: 50%;
+}
+
+.RPFmiddle {
+  width: 100%;
+}
+
+.RPFbottom {
+  width: 100%;
+  height: 4em;
+  margin-top: 49.1em;
+  background-color: #ededef;
+  display: flex;
+  justify-content: space-evenly;
+}
+.SearchInputChat {
+  margin-left: 0.5em;
+  width: 72%;
+  height: 65%;
+  margin-top: 0.72em;
+  padding-left: 1em;
+  font-size: 1em;
+  background-color: rgb(253, 252, 252);
+  border-radius: 0.4em;
+  border: none;
+  outline: none;
+}
+.RPFbottom i:hover {
+  background-color: rgb(212, 212, 212);
+}
+.AudioIcon i {
+  margin-top: 0.7em;
+  padding: 0.5em 0.62em;
+  border-radius: 50%;
+  font-size: 1.2em;
+  color: grey;
+}
+.ClipIcon i,
+.SmileIcon i {
+  margin-top: 0.7em;
+  font-size: 1.2em;
+  padding: 0.5em;
+  border-radius: 50%;
+  color: grey;
+}

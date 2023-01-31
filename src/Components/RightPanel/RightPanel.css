@@ -1,0 +1,6 @@
+.RightPanel {
+  width: 70%;
+  height: 100%;
+  background-color: rgb(209, 209, 209);
+  display: flex;
+}
