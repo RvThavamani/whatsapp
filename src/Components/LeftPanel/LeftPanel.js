@@ -15,7 +15,7 @@ function LeftPanelTop() {
   return (
     <div className="LeftPanelTop">
       <ProfileContent />
-      <SearchContainer />
+      <SearchContainer /> 
     </div>
   );
 }

@@ -1,0 +1,181 @@
+.RightPanelSecond {
+  width: 43%;
+  background-color: #f0f2f5;
+  font-family: sans-serif;
+}
+.RightPanelSecondTop {
+  height: 3.75em;
+  display: flex;
+  align-content: space-evenly;
+  color: rgb(109, 108, 108);
+}
+.cancel {
+  font-size: x-large;
+  padding: 0.75em;
+}
+.ContactInfo {
+  font-size: large;
+  font-family: sans-serif;
+  padding: 1em;
+}
+
+.RightPanelSecondBody {
+  width: 100%;
+  height: 91%;
+  overflow: auto;
+}
+.ProfileNamePhoto {
+  width: 100%;
+  height: 19.7em;
+  background-color: white;
+  box-shadow: 0 8px 6px -6px rgb(106, 104, 104, 0.23);
+}
+.ProfilePhoto i {
+  font-size: 12em;
+  margin-left: 0.75em;
+  margin-top: 0.1em;
+  color: rgb(156, 155, 155);
+}
+.ProfilePhoto .UserName {
+  font-family: sans-serif;
+  font-size: x-large;
+  color: rgb(115, 115, 115);
+  text-align: center;
+  margin-top: 0.5em;
+}
+.ProfilePhoto .UserNumber {
+  font-family: sans-serif;
+  font-size: large;
+  color: rgb(115, 115, 115);
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+.About {
+  background-color: white;
+  height: 3.3em;
+  margin-top: 0.75em;
+  padding: 1.5em;
+  box-shadow: 0 8px 6px -6px rgb(106, 104, 104, 0.23);
+}
+.AboutHeading {
+  font-size: medium;
+  color: grey;
+}
+.AboutLines {
+  margin-top: 0.75em;
+  font-size: large;
+  color: rgb(47, 47, 47);
+}
+
+.Media {
+  display: flex;
+  align-content: space-between;
+  background-color: white;
+  color: rgb(128, 127, 127);
+  margin-top: 0.75em;
+  padding: 1.5em;
+  box-shadow: 0 8px 6px -6px rgb(106, 104, 104, 0.23);
+}
+.files {
+  margin-left: 14em;
+  display: flex;
+}
+.files i {
+  margin-left: 0.5em;
+}
+.MessageSet {
+  margin-top: 0.75em;
+  font-size: large;
+  background-color: white;
+  color: rgb(47, 47, 47);
+  box-shadow: 0 8px 6px -6px rgb(106, 104, 104, 0.23);
+}
+.RPMset {
+  width: 100%;
+  padding: 1.3em;
+  display: flex;
+  align-content: space-between;
+  color: rgb(119, 117, 117);
+}
+.FtIcon {
+  margin-left: 1em;
+}
+.SetMessage {
+  width: 65%;
+  margin-left: 1em;
+}
+.FlIcon {
+  margin-left: 1.7em;
+  font-size: large;
+}
+.SMintext {
+  font-size: small;
+}
+.Commongroup {
+  background-color: white;
+  margin-top: 0.75em;
+  height: max-content;
+  box-shadow: 0 8px 6px -6px rgb(106, 104, 104, 0.23);
+}
+.CommongroupHeading {
+  color: grey;
+  font-size: medium;
+  margin-left: 2.6em;
+  margin-top: 1em;
+}
+.Groups:hover {
+  background-color: rgb(240, 239, 239);
+}
+.Groups:hover .DropList {
+  display: block;
+}
+.Groups {
+  display: flex;
+  height: 5em;
+}
+.GroupProfile {
+  font-size: 2.7em;
+  color: grey;
+  padding: 0.5em;
+  margin-left: 0.4em;
+}
+.GroupDet {
+  margin-top: 1.4em;
+}
+.GroupName {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(78, 76, 76);
+}
+.GpMembers {
+  font-size: 0.9em;
+  color: rgb(163, 162, 162);
+}
+.DropList {
+  margin-left: 7.25em;
+  color: rgb(107, 106, 106);
+  font-size: large;
+  margin-top: 2.4em;
+  display: none;
+}
+.Footer {
+  background-color: white;
+  margin-top: 0.75em;
+  height: max-content;
+  color: red;
+  box-shadow: 0 8px 6px -6px rgb(106, 104, 104, 0.23);
+}
+.FooterMessage:hover {
+  background-color: rgb(245, 245, 245);
+}
+.FooterMessage {
+  height: 4em;
+  display: flex;
+}
+.FootIcon,
+.FootMessage {
+  margin-top: 1em;
+  margin-left: 2em;
+  font-size: large;
+}

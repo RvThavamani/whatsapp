@@ -12,7 +12,7 @@ export default function LeftPanelTBottom() {
       <ChatList UserName="Hamza" Time="06.10 AM" Message="Good Morning" />
       <ChatList UserName="MSD" Time="11.15 PM" Message="How are you?" />
       <ChatList
-        UserName="Virat"
+        UserName="Virat kohli"
         Time="12.05 AM"
         Message="How old are you?...Keep smile"
       />
